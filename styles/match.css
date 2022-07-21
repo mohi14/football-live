@@ -261,6 +261,10 @@ hr {
 
     }
 
+    .blog-link-button {
+        border: 1px solid gray;
+    }
+
     .blog-detail {
         grid-template-columns: repeat(1, 1fr);
     }
@@ -323,6 +327,7 @@ hr {
         font-size: 15px;
         padding: 20px 30px;
         border-radius: 10px;
+        border: 1px solid gray;
 
     }
 
