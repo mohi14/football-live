@@ -50,10 +50,18 @@ body {
 .link-button {
     text-decoration: none;
     color: white;
+    border: 0;
     font-size: 20px;
     background-color: #e71919;
     padding: 15px 30px;
     border-radius: 5px;
+    cursor: pointer;
+    transition: ease-out 0.3s;
+}
+
+.link-button:hover {
+    box-shadow: inset 181px 0 0 0 blue;
+
 }
 
 /*-------------------------
@@ -94,7 +102,14 @@ body {
     padding: 20px 30px;
     border-radius: 10px;
     cursor: pointer;
+    border: none;
+    transition: ease-out 0.3s;
 
+}
+
+.blog-link-button:hover {
+    color: white;
+    background-color: #e71919;
 }
 
 #blog-link-button {
@@ -107,6 +122,7 @@ body {
     padding: 20px 30px;
     border-radius: 10px;
     cursor: pointer;
+    border: none;
 }
 
 .blog-detail {
@@ -257,6 +273,10 @@ hr {
 
     }
 
+    .blog-link-button {
+        border: 1px solid gray;
+    }
+
     .blog-detail {
         grid-template-columns: repeat(1, 1fr);
     }
@@ -319,7 +339,7 @@ hr {
         font-size: 15px;
         padding: 20px 30px;
         border-radius: 10px;
-
+        border: 1px solid gray;
     }
 
     #blog-link-button {
